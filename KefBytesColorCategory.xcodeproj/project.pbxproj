@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE309ADD1D0F673400D61021 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE309ADC1D0F673400D61021 /* main.m */; };
+		AE309AE01D0F673400D61021 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE309ADF1D0F673400D61021 /* AppDelegate.m */; };
+		AE309AE31D0F673400D61021 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE309AE21D0F673400D61021 /* ViewController.m */; };
+		AE309AE61D0F673400D61021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE309AE41D0F673400D61021 /* Main.storyboard */; };
+		AE309AE81D0F673400D61021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE309AE71D0F673400D61021 /* Assets.xcassets */; };
+		AE309AEB1D0F673400D61021 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE309AE91D0F673400D61021 /* LaunchScreen.storyboard */; };
+		AE309AF41D0F678600D61021 /* UIColor+KefBytesColor.m in Sources */ = {isa = PBXBuildFile; fileRef = AE309AF31D0F678600D61021 /* UIColor+KefBytesColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AE309AD81D0F673400D61021 /* KefBytesColorCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KefBytesColorCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE309ADC1D0F673400D61021 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE309ADE1D0F673400D61021 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE309ADF1D0F673400D61021 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE309AE11D0F673400D61021 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE309AE21D0F673400D61021 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE309AE51D0F673400D61021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE309AE71D0F673400D61021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE309AEA1D0F673400D61021 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE309AEC1D0F673400D61021 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE309AF21D0F678600D61021 /* UIColor+KefBytesColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KefBytesColor.h"; sourceTree = "<group>"; };
+		AE309AF31D0F678600D61021 /* UIColor+KefBytesColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KefBytesColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE309AD51D0F673400D61021 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE309ACF1D0F673400D61021 = {
+			isa = PBXGroup;
+			children = (
+				AE309ADA1D0F673400D61021 /* KefBytesColorCategory */,
+				AE309AD91D0F673400D61021 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE309AD91D0F673400D61021 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE309AD81D0F673400D61021 /* KefBytesColorCategory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE309ADA1D0F673400D61021 /* KefBytesColorCategory */ = {
+			isa = PBXGroup;
+			children = (
+				AE309ADE1D0F673400D61021 /* AppDelegate.h */,
+				AE309ADF1D0F673400D61021 /* AppDelegate.m */,
+				AE309AF21D0F678600D61021 /* UIColor+KefBytesColor.h */,
+				AE309AF31D0F678600D61021 /* UIColor+KefBytesColor.m */,
+				AE309AE11D0F673400D61021 /* ViewController.h */,
+				AE309AE21D0F673400D61021 /* ViewController.m */,
+				AE309AE41D0F673400D61021 /* Main.storyboard */,
+				AE309AE71D0F673400D61021 /* Assets.xcassets */,
+				AE309AE91D0F673400D61021 /* LaunchScreen.storyboard */,
+				AE309AEC1D0F673400D61021 /* Info.plist */,
+				AE309ADB1D0F673400D61021 /* Supporting Files */,
+			);
+			path = KefBytesColorCategory;
+			sourceTree = "<group>";
+		};
+		AE309ADB1D0F673400D61021 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE309ADC1D0F673400D61021 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE309AD71D0F673400D61021 /* KefBytesColorCategory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE309AEF1D0F673400D61021 /* Build configuration list for PBXNativeTarget "KefBytesColorCategory" */;
+			buildPhases = (
+				AE309AD41D0F673400D61021 /* Sources */,
+				AE309AD51D0F673400D61021 /* Frameworks */,
+				AE309AD61D0F673400D61021 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KefBytesColorCategory;
+			productName = KefBytesColorCategory;
+			productReference = AE309AD81D0F673400D61021 /* KefBytesColorCategory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE309AD01D0F673400D61021 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Franks, Kent";
+				TargetAttributes = {
+					AE309AD71D0F673400D61021 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AE309AD31D0F673400D61021 /* Build configuration list for PBXProject "KefBytesColorCategory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE309ACF1D0F673400D61021;
+			productRefGroup = AE309AD91D0F673400D61021 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE309AD71D0F673400D61021 /* KefBytesColorCategory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE309AD61D0F673400D61021 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE309AEB1D0F673400D61021 /* LaunchScreen.storyboard in Resources */,
+				AE309AE81D0F673400D61021 /* Assets.xcassets in Resources */,
+				AE309AE61D0F673400D61021 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE309AD41D0F673400D61021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE309AE31D0F673400D61021 /* ViewController.m in Sources */,
+				AE309AE01D0F673400D61021 /* AppDelegate.m in Sources */,
+				AE309AF41D0F678600D61021 /* UIColor+KefBytesColor.m in Sources */,
+				AE309ADD1D0F673400D61021 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE309AE41D0F673400D61021 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE309AE51D0F673400D61021 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE309AE91D0F673400D61021 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE309AEA1D0F673400D61021 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE309AED1D0F673400D61021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE309AEE1D0F673400D61021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE309AF01D0F673400D61021 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KefBytesColorCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kefbytes.KefBytesColorCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE309AF11D0F673400D61021 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KefBytesColorCategory/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kefbytes.KefBytesColorCategory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE309AD31D0F673400D61021 /* Build configuration list for PBXProject "KefBytesColorCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE309AED1D0F673400D61021 /* Debug */,
+				AE309AEE1D0F673400D61021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE309AEF1D0F673400D61021 /* Build configuration list for PBXNativeTarget "KefBytesColorCategory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE309AF01D0F673400D61021 /* Debug */,
+				AE309AF11D0F673400D61021 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE309AD01D0F673400D61021 /* Project object */;
+}
